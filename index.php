@@ -1,3 +1,14 @@
+<?php include("fonction/fonction.php") ?>
+<?php include("core/router.php") ?>
+<?php session_start()?>
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -27,5 +38,10 @@
         </ul></strong></nav>
     </section>
     
+    <?php 
+        include(router());
+    ?>
+
+
 </body>
 </html>
