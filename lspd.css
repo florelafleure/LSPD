@@ -1,6 +1,7 @@
 
 body{
     background-color: lightgray;
+    font-family: sans-serif;
 }
 p{
     background-color: white;
@@ -31,32 +32,82 @@ h1{
     margin-bottom: 0%;
     text-shadow: 1px 1px 2px black;
 }
-.Nav ul{
-    display:flex;
-    justify-content: space-around;
-    font-family:'Cinzel', serif;
-    font-size: 20px;
-    text-shadow: 2px 2px 3px gray;
-    list-style: none;
-    border :3px solid black;
-    padding: 12px;
-    border-radius: 20px;
-    text-decoration: none;
-    background-color: rgb(77, 124, 226);
-    color: black;
-    font-weight: 2000;
-    }
-    .Nav ul li{
-        padding: 10px;
+
+    
+      
+      .navbar {
+        overflow: hidden;
+        display:flex;
+        justify-content: space-around;
+        text-shadow: 2px 2px 3px gray;
+        border :3px solid black;
+        padding: 12px;
+        background-color: rgb(77, 124, 226);
+        color: black;
+        font-weight: bold;
+        border-radius: 20px;
+      }
+      
+      .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
         border-radius: 20px;
         box-shadow: 0 0 10px gray;
-    }
-    .Nav ul li:hover{
+      }
+      
+      .dropdown {
+        float: left;
+        overflow: hidden;
+        border-radius: 20px;
+        font-weight: bold;
+        box-shadow: 0 0 10px gray;
+      }
+      
+      .dropdown .dropbtn {
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        border-radius: 20px;
+        font-size: 20px;
+      }
+      
+      .navbar a:hover, .dropdown:hover .dropbtn {
         background-color: rgba(38,93,183,255);
-        font-weight:bold;
-        font-size: 22px;
-    }
-    .Nav, ul, li, a{
+        transform: scale(1.2);
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgb(77, 124, 226);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        float: none;
+        color: white;
+        padding: 12px 16px;
         text-decoration: none;
-        color: black;
-    }
+        display: block;
+        text-align: left;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: rgba(38,93,183,255);
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }

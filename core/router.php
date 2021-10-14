@@ -2,8 +2,8 @@
     function router(){
         $pageName = str_replace('/', '', isset($_SERVER['PATH_INFO']) ? $_SERVER['PATH_INFO'] : '');
         switch($pageName){
-            case '':
-                return'';
+            case 'effectif':
+                return'page/effectif.php';
             case '':
                 return "";
             case '':
@@ -13,7 +13,7 @@
             case '':
                 return '';
             default: 
-                return 'formulaire/form1.php';
+                return 'page/home.php';
         }
     }
 ?>
