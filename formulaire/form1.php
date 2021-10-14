@@ -1,0 +1,1 @@
+<a href="<?php echo url('') ?>">Dis moi Bonjour !</a>
