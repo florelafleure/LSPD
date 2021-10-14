@@ -28,13 +28,19 @@
 
     <section class="Nav">
         <nav><strong><ul>
-            <li><a href="lspdhome.html">Home</a></li>
-            <li><a href="effectif.html">Effectif de Police</a></li>
-            <li><a href="casier.html">Casier Judiciaire</a></li>
-            <li><a href="enquete.html">Enquête</a></li>
-            <li><a href="rapport.html">Rapports</a></li>
-            <li><a href="service.html">Service</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="lspdhome.php">Home</a></li>
+            <li><a href="casier.php">Casier Judiciaire</a></li>
+            <li><a href="enquete.php">Enquête</a></li>
+            <li><a href="rapport.php">Rapport</a></li>
+            <li><a href="amande.php">Amande</a></li>
+            <li><a href="saisie.php">Saisie</a></li>
+            <li><a href="gav.php">GAV</a></li>
+            <li><a href="bracelet.php">Bracelet Elec.</a></li>
+            <li><a href="plainte.php">Plainte</a></li>
+            <li><a href="plaque.php">Plaque D'imm.</a></li>
+            <li><a href="effectif.php">Effectif de Police</a></li>
+            <li><a href="service.php">Service</a></li>
+            <li><a href="contact.php">Contact</a></li>
         </ul></strong></nav>
     </section>
     
