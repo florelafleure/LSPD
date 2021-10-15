@@ -28,8 +28,13 @@
                 return "page/saisie.php";
             case 'service':
                 return "page/service.php";
+            case 'deco':
+                return "cible/deco.php";
+            case 'connection':
+                return "cible/cible1.php";
+            
             default: 
-                return 'page/home.php';
+                return 'formulaire/form1.php';
         }
     }
 ?>
