@@ -4,14 +4,30 @@
         switch($pageName){
             case 'effectif':
                 return'page/effectif.php';
-            case '':
-                return "";
-            case '':
-                return "";
-            case '':
-                return "";
-            case '':
-                return '';
+            case 'amande':
+                return "page/amande.php";
+            case 'bracelet':
+                return "page/bracelet.php";
+            case 'casier':
+                return "page/casier.php";
+            case 'contact':
+                return 'page/contact.php';
+            case 'enquete':
+                return "page/enquete.php";
+            case 'gav':
+                return "page/gav.php";
+            case 'home':
+                return "page/home.php";
+            case 'plainte':
+                return "page/plainte.php";
+            case 'plaque':
+                return "page/plaque.php";
+            case 'rapport':
+                return "page/rapport.php";
+            case 'saisie':
+                return "page/saisie.php";
+            case 'service':
+                return "page/service.php";
             default: 
                 return 'page/home.php';
         }
